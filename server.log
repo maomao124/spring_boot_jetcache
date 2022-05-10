@@ -1,0 +1,33 @@
+2022-05-10 20:56:55.024  INFO 22988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-10 20:56:55.056  INFO 22988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2022-05-10 20:56:55.588  INFO 22988 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-10 20:56:55.867  INFO 22988 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-10 20:56:56.296  INFO 22988 --- [main] c.a.j.a.AbstractCacheAutoInit            : init cache area default , type= redis
+2022-05-10 20:56:56.373  INFO 22988 --- [main] c.a.j.support.DefaultMetricsManager      : cache stat period at 1 MINUTES
+2022-05-10 20:56:58.194  INFO 22988 --- [main] mao.spring_boot_jetcache.CacheTest       : Started CacheTest in 4.3 seconds (JVM running for 5.273)
+2022-05-10 20:56:59.270 DEBUG 22988 --- [main] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 20:56:59.324 DEBUG 22988 --- [main] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 20:56:59.350 DEBUG 22988 --- [main] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 20:56:59.405 DEBUG 22988 --- [main] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 20:56:59.406 DEBUG 22988 --- [main] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 20:56:59.408 DEBUG 22988 --- [main] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 20:56:59.636  INFO 22988 --- [SpringApplicationShutdownHook] c.a.j.support.DefaultMetricsManager      : cache stat canceled
+2022-05-10 20:56:59.638  INFO 22988 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-10 20:56:59.644  INFO 22988 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-10 20:57:52.064  INFO 1040 --- [main] mao.spring_boot_jetcache.CacheTest       : Starting CacheTest using Java 16.0.2 on mao with PID 1040 (started by mao in H:\程序\大三下期\spring_boot_jetcache)
+2022-05-10 20:57:52.066 DEBUG 1040 --- [main] mao.spring_boot_jetcache.CacheTest       : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 20:57:52.066  INFO 1040 --- [main] mao.spring_boot_jetcache.CacheTest       : The following 1 profile is active: "dev"
+2022-05-10 20:57:52.791  INFO 1040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 20:57:52.794  INFO 1040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-10 20:57:52.816  INFO 1040 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2022-05-10 20:57:53.349  INFO 1040 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-10 20:57:53.636  INFO 1040 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-10 20:57:54.086  INFO 1040 --- [main] c.a.j.a.AbstractCacheAutoInit            : init cache area default , type= redis
+2022-05-10 20:57:54.171  INFO 1040 --- [main] c.a.j.support.DefaultMetricsManager      : cache stat period at 1 MINUTES
+2022-05-10 20:57:55.940  INFO 1040 --- [main] mao.spring_boot_jetcache.CacheTest       : Started CacheTest in 4.267 seconds (JVM running for 5.252)
+2022-05-10 20:57:57.021 DEBUG 1040 --- [main] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 20:57:57.078 DEBUG 1040 --- [main] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 20:57:57.105 DEBUG 1040 --- [main] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 20:57:57.356  INFO 1040 --- [SpringApplicationShutdownHook] c.a.j.support.DefaultMetricsManager      : cache stat canceled
+2022-05-10 20:57:57.358  INFO 1040 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-10 20:57:57.365  INFO 1040 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
